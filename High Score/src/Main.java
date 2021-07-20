@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         // If a positive weight cycle exists then you can get infinitely large Score
-        // in case if there exist a path from root to node "1" through the cycle
+        // in case if there exist a path from root to node "n" through the cycle (infinite arbitrage)
         // If not then simple Bellman Ford works
 
         int n = in.nextInt();
